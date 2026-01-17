@@ -17,8 +17,7 @@ Add `tokencount` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:tokencount, path: "path/to/tokencount"} # While in development
-    # {:tokencount, "~> 0.1.0"} # Future hex release
+    {:tokencount, github: "youfun/tokencount"}
   ]
 end
 ```
